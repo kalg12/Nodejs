@@ -35,9 +35,43 @@ npm es el Node Package Manager
 ```bash
 npm init
 ```
+- Seguido de esto Nodejs nos pedirá llenar una serie de datos.
 
 ## Instalar y desisntalar paquetes
+En el siguiente enlace, importaremos el paquete "Cowsay" a nuestro proyecto.
+```bash
+[npm init](https://www.npmjs.com/package/cowsay)
+```
+Es muy importante leer la documentación.
+- Dentro de nuestra carpeta desde terminal, vamos a ejecutar el comando:
+```bash
+npm i cowsay
+```
+
+- Se ha colocado el siguiente código en nuestro app.js
+```bash
+var cowsay = require("cowsay");
+
+console.log(cowsay.say({
+    text : "I'm a moooodule",
+    e : "oO",
+    T : "U "
+}));
+```
+Ahora vamos a ejecutarlo...
 
 ## Automatización de tareas con npm
+
+- Dentro de nuestro package.json vamos a modificar el apartado de scripts, quedando de la siguiente manera:
+```bash
+"scripts": {
+    "start": "node app.js"
+  },
+```
+- Esta modificación nos permitirá inicializar nuestro app.js que tenemos dentro de la misma carpeta. Ahora vamos a inicializar nuestro proyecto con el comando
+```bash
+node start
+```
+
 
 # Sintaxis de Nodejs
