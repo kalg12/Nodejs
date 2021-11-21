@@ -96,7 +96,12 @@ npm start
 ```
 - Al hacer este proceso, le indicamos a Node la ruta del archivo específico a ejecutar.
 
-- Pero OJO, también podemos ejecutar 
+- Pero OJO, también podemos ejecutar varios procesos, uno seguido de otro, para ello se usan los comandos &&
+```bash
+"scripts": {
+    "start": "node app.js && npm audit"
+  },
+```
 
 # Sintaxis de Nodejs
 ## Datos simples en Nodejs
