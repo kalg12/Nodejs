@@ -132,4 +132,4 @@ https://www.npmjs.com/package/nodemon
 
 ## Crear un servidor básico en Nodejs
 
-## 
+## Mostrar contenido en el servidor Nodejs
