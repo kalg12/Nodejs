@@ -38,6 +38,8 @@ npm init
 - Seguido de esto Nodejs nos pedirá llenar una serie de datos.
 
 ## Instalar y desisntalar paquetes
+
+## Instalación
 En el siguiente enlace, importaremos el paquete "Cowsay" a nuestro proyecto.
 ```bash
 [npm init](https://www.npmjs.com/package/cowsay)
@@ -60,9 +62,29 @@ console.log(cowsay.say({
 ```
 Ahora vamos a ejecutarlo...
 
-## Automatización de tareas con npm
+## Desinstalar
+```bash
+npm uninstall cowsay
+```
 
-- Dentro de nuestro package.json vamos a modificar el apartado de scripts, quedando de la siguiente manera:
+## Automatización de tareas con npm
+- Este comando examina todos los modulos que se encuentran dentro de mi aplicació y verifica que no haya vulnerabilidades.
+```bash
+npm audit
+```
+```bash
+"scripts": {
+    "start": "node app.js && auditar",
+    "auditar": "npm audit"
+  },
+  },
+```
+- En el código de arriba hemos agregado una propiedad de nombre auditar en específico podemos ejecutarla con
+```bash
+npm run audit
+```
+
+- Dentro de nuestro package.json vamos a modificar el apartado de scripts, quedando de la siguiente manera modificamos la propiedad y su valor quedando:
 ```bash
 "scripts": {
     "start": "node app.js"
@@ -70,8 +92,15 @@ Ahora vamos a ejecutarlo...
 ```
 - Esta modificación nos permitirá inicializar nuestro app.js que tenemos dentro de la misma carpeta. Ahora vamos a inicializar nuestro proyecto con el comando
 ```bash
-node start
+npm start
 ```
+- Al hacer este proceso, le indicamos a Node la ruta del archivo específico a ejecutar.
 
+- Pero OJO, también podemos ejecutar 
 
 # Sintaxis de Nodejs
+## Datos simples en Nodejs
+
+## Datos compuestos en Nodejs
+
+## Funciones y métodos en Nodejs
