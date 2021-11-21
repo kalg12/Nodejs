@@ -114,6 +114,22 @@ npm start
 ## Buffer y Process a examen
 
 ## Importar paquetes externos usando el servicio en la nube de NPM
+
+## Importar paquetes internos usando el servicio en la nube de NPM
 ```bash
 var miModulo = require('./SecondApp/app.js')
 ```
+
+## Paquetes preinstalados de Node
+Node por defecto tiene instalados algunos paquetes como http, url, path, fs, estos módulos nos permiten interactuar con el sistema (path fs) así como con archivos externos (http url)
+
+# Operar un servidor en Nodejs
+
+## Instalando nodemon para ver cambios sin actualizar en terminal
+```bash
+https://www.npmjs.com/package/nodemon
+```
+
+## Crear un servidor básico en Nodejs
+
+## 
