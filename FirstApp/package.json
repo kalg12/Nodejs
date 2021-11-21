@@ -4,7 +4,7 @@
   "description": "Primer proyecto con Nodejs",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js && npm audit"
+    "start": "node app.js"
   },
   "author": "Kevin Luciano",
   "license": "ISC",

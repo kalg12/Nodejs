@@ -81,7 +81,7 @@ npm audit
 ```
 - En el código de arriba hemos agregado una propiedad de nombre auditar en específico podemos ejecutarla con
 ```bash
-npm run audit
+npm run auditar
 ```
 
 - Dentro de nuestro package.json vamos a modificar el apartado de scripts, quedando de la siguiente manera modificamos la propiedad y su valor quedando:
@@ -105,7 +105,15 @@ npm start
 
 # Sintaxis de Nodejs
 ## Datos simples en Nodejs
+- Node al estar basado en Javascript utiliza sus mismas reglas y sintaxis
 
 ## Datos compuestos en Nodejs
 
 ## Funciones y métodos en Nodejs
+
+## Buffer y Process a examen
+
+## Importar paquetes externos usando el servicio en la nube de NPM
+```bash
+var miModulo = require('./SecondApp/app.js')
+```

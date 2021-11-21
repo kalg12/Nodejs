@@ -5,3 +5,6 @@ console.log(cowsay.say({
     e : "**",
     T : "U "
 }));
+
+//Importación de un módulo local
+var miModulo = require('./SecondApp/app.js')
