@@ -20,3 +20,22 @@ node
 ```
 - Ejecutando este comando veremos un mensaje de bienvenida, de lo contrario, un mensaje de error.
 
+## ¿Qué versión de Nodejs tengo?
+- Desde terminal ejecuta el siguiente comando
+```bash
+node -v
+```
+
+# El entorno de NPM
+npm es el Node Package Manager
+
+## NPM
+
+## Inicializar un proyecto con npm
+
+## Instalar y desisntalar paquetes
+
+## Automatización de tareas con npm
+
+# Sintaxis de Nodejs
+
