@@ -26,16 +26,18 @@ node
 node -v
 ```
 
-# El entorno de NPM
+# NPM
 npm es el Node Package Manager
 
-## NPM
+## El entorno de NPM
 
 ## Inicializar un proyecto con npm
+```bash
+npm init
+```
 
 ## Instalar y desisntalar paquetes
 
 ## Automatización de tareas con npm
 
 # Sintaxis de Nodejs
-
