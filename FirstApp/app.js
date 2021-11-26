@@ -8,3 +8,6 @@ console.log(cowsay.say({
 
 //Importación de un módulo local
 var miModulo = require('./SecondApp/app.js')
+
+//Importamos nuestra segunda app que es utilizando nodemon
+var appDos = require('./app2.js')

@@ -125,6 +125,14 @@ Node por defecto tiene instalados algunos paquetes como http, url, path, fs, est
 
 # Operar un servidor en Nodejs
 
+## Instalando nodemon para ver cambios sin refrescar
+
+Nodemon es una utilidad que monitorea los cambios en el código fuente que se esta desarrollando y automáticamente re inicia el servidor. Es una herramienta muy útil para desarrollo de aplicaciones en nodojs.
+
+```bash
+npm install nodemon
+```
+
 ## Instalando nodemon para ver cambios sin actualizar en terminal
 ```bash
 https://www.npmjs.com/package/nodemon
